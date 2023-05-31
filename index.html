@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <title>Sais</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+        integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body data-bs-theme="dark">
+    <!-- [ HEADER ] -->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img id="logo"
+                    src="https://www.fess.es/wp-content/uploads/2020/10/Beneficios-principales-de-la-sal-marina-para-tu-cuerpo.jpg"
+                    alt="Logo" width="60" height="60" class="d-inline-block align-text-top rounded-pill">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active home" aria-current="page" href="#">Sais (Naan e Vitor)</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- [ TITULO ] -->
+
+    <div class="titulo">
+        <h1 id="bem-vindo"><i class="fa-sharp fa-regular fa-salt-shaker"></i> Seja bem vindo aos Sais!</h1>
+    </div>
+
+    <!-- https://www.baxari.gr/image/cache/catalog/kathgories/Pink%20Himalayan%20Salt-HMYPK-1000x1000.jpg-->
+
+
+    <!-- [ CARDS ] -->
+
+    <div class="cards">
+        <div class="card mb-3" style="max-width: 620px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <div id="carouselExample" data-bs-ride="carousel" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="3000">
+                                <img src="https://www.baxari.gr/image/cache/catalog/kathgories/Pink%20Himalayan%20Salt-HMYPK-1000x1000.jpg"
+                                    class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="3000">
+                                <img src="https://http2.mlstatic.com/sal-rosa-do-himalaia-comestivel-1000g-importado-1kg-fino-D_NQ_NP_746221-MLB20746678825_062016-F.jpg"
+                                    class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="3000">
+                                <img src="https://images.tcdn.com.br/img/img_prod/558898/sal_rosa_do_himalaia_grosso_1kg_481_2_20170831130305.jpg"
+                                    class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                            data-bs-slide="prev">
+                            <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                            data-bs-slide="next">
+                            <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Sal do himalaia</h5>
+                        <p class="card-text">Sal rosa, menos processado, possível benefício para saúde.</p>
+                        <p class="card-text"><small class="text-body-secondary">Venha conhecer mais agora!</small></p>
+                        <button href="#" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#modalHimalaia">Ver mais</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card mb-3" style="max-width: 620px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <div id="carouselExample" data-bs-ride="carousel" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="3000">
+                                <img src="https://th.bing.com/th/id/OIP.uXTVr-5dLAVuNjTpiNcSqQHaHa?pid=ImgDet&rs=1"
+                                    class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="3000">
+                                <img src="https://th.bing.com/th/id/OIP.btIjfWRldRC1v0oKwGs65AHaHa?pid=ImgDet&rs=1"
+                                    class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="3000">
+                                <img src="https://th.bing.com/th/id/OIP.6fK3f7BeaF3gojVK0p1gtwHaHa?pid=ImgDet&w=500&h=500&rs=1"
+                                    class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                            data-bs-slide="prev">
+                            <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                            data-bs-slide="next">
+                            <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Sal refinado</h5>
+                        <p class="card-text">Condimento básico para temperar alimentos na culinária.</p>
+                        <p class="card-text"><small class="text-body-secondary">Venha conhecer mais agora!</small></p>
+                        <button href="#" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#modalRefinado">Ver mais</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="cards">
+        <div class="card mb-3" style="max-width: 620px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="https://http2.mlstatic.com/D_NQ_NP_670503-MLB45552341134_042021-O.webp"
+                        class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Sal grosso</h5>
+                        <p class="card-text">Condimento básico para temperar alimentos na culinária.</p>
+                        <p class="card-text"><small class="text-body-secondary">Venha conhecer mais agora!</small></p>
+                        <button href="#" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#modalGrosso">Ver mais</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- [ MODALS ] -->
+
+    <div class="modal fade modal-lg" id="modalHimalaia" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Sal do himalaia</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade modal-lg" id="modalRefinado" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Sal refinado</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade modal-lg" id="modalGrosso" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Sal grosso</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+        integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+        crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
